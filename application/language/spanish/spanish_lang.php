@@ -3498,4 +3498,4 @@ $lang['email_to_ticket_config']          = 'Email to ticket configuration';
 
 #royalties
 
-$lang['my_royalties']          = 'My royalties';
+$lang['my_royalties']          = 'Mis regalias';
