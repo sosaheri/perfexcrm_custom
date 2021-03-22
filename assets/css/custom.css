@@ -74,6 +74,10 @@ div.ExternalUrl a{
       font-size: 15px;
 
 }
+div.ExternalUrl a:hover {
+    color: #19B7CB;
+    font-size: 15px;
+}
 .divTable.ExternalUrl .divTableCell, .divTable.ExternalUrl .divTableHead {
   border: 0px solid #AAAAAA;
 }
