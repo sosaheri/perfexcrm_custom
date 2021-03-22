@@ -1,4 +1,7 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
+<?php get_template_part('external_urls');?>
+
 <div class="panel_s section-heading section-announcement">
     <div class="panel-body">
         <h4 class="bold no-margin announcement-heading section-text"><?php echo $announcement->name; ?></h4>

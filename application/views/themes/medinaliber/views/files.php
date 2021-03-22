@@ -1,10 +1,12 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
-<div class="panel_s section-heading section-files">
-    <div class="panel-body">
-        <h4 class="no-margin section-text"><?php echo _l('customer_profile_files'); ?></h4>
-        <?php hooks()->do_action('after_customers_area_files_heading'); ?>
-    </div>
-</div>
+
+			<?php get_template_part('external_urls');?>
+
+
+			<h3 id="customers" class="no-mtop"><?php echo _l('customer_profile_files'); ?></h3>
+             <?php hooks()->do_action('after_customers_area_files_heading'); ?>
+
+
 <div class="panel_s">
    <div class="panel-body">
        <?php echo form_open_multipart(site_url('clients/upload_files'),array('class'=>'dropzone','id'=>'files-upload')); ?>

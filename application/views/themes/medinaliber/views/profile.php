@@ -1,13 +1,16 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
+			<?php get_template_part('external_urls');?>
+
+
+
 <div class="row section-heading section-profile">
 	<div class="col-md-8">
 		<?php echo form_open_multipart('clients/profile',array('autocomplete'=>'off')); ?>
 		<?php echo form_hidden('profile',true); ?>
-		<div class="panel_s">
-			<div class="panel-body">
-				<h4 class="no-margin section-text"><?php echo _l('clients_profile_heading'); ?></h4>
-			</div>
-		</div>
+			
+			<h3 id="customers" class="no-mtop"><?php echo _l('clients_profile_heading'); ?></h3>
+
 		<?php hooks()->do_action('before_client_profile_form_loaded'); ?>
 		<div class="panel_s">
 			<div class="panel-body">
@@ -15,7 +18,9 @@
 					<div class="col-md-12">
 						<div class="form-group">
 							<?php if($contact->profile_image == NULL){ ?>
-								<div class="form-group profile-image-upload-group">
+								<div class="form-group profile-image-upload-group">	
+								
+
 									<label for="profile_image" class="profile-image"><?php echo _l('client_profile_image'); ?></label>
 									<input type="file" name="profile_image" class="form-control" id="profile_image">
 								</div>
@@ -123,11 +128,10 @@
 		<?php echo form_close(); ?>
 	</div>
 	<div class="col-md-4 contact-profile-change-password-section">
-		<div class="panel_s section-heading section-change-password">
-			<div class="panel-body">
-				<h4 class="no-margin section-text"><?php echo _l('clients_edit_profile_change_password_heading'); ?></h4>
-			</div>
-		</div>
+	
+						<h3 id="customers" class="no-mtop"><?php echo _l('clients_edit_profile_change_password_heading'); ?></h3>
+
+		
 		<div class="panel_s">
 			<div class="panel-body">
 				<?php echo form_open('clients/profile'); ?>

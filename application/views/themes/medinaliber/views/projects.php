@@ -1,12 +1,16 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
-<div class="panel_s section-heading section-projects">
-   <div class="panel-body">
-      <h4 class="no-margin section-text"><?php echo _l('clients_my_projects'); ?></h4>
-   </div>
-</div>
+
+			<?php get_template_part('external_urls');?>
+
+
+			<h3 id="customers" class="no-mtop"><?php echo _l('clients_my_projects'); ?></h3>
+
+
 <div class="panel_s">
    <div class="panel-body">
       <div class="row mbot15">
+
+      
          <div class="col-md-12">
             <h3 class="text-success projects-summary-heading no-mtop mbot15"><?php echo _l('projects_summary'); ?></h3>
          </div>

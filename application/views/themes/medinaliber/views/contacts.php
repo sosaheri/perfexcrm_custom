@@ -1,10 +1,12 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
-<div class="panel_s section-heading section-contacts">
-    <div class="panel-body">
-        <h4 class="section-text pull-left"><?php echo _l('clients_my_contacts'); ?></h4>
+
+<?php get_template_part('external_urls');?>
+
+
+			<h3 id="customers" class="no-mtop"><?php echo _l('clients_my_contracts'); ?></h3>
         <a href="<?php echo site_url('contacts/contact'); ?>" class="btn btn-info pull-right mtop5"><?php echo _l('new_contact'); ?></a>
-    </div>
-</div>
+
+
 <div class="clear-fix"></div>
 <div class="panel_s">
     <div class="panel-body">

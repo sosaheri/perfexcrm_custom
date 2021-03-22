@@ -1,4 +1,7 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
+<?php get_template_part('external_urls');?>
+
 <div class="row">
     <?php if($ticket->project_id != 0){ ?>
     <div class="col-md-12 single-ticket-project-area">

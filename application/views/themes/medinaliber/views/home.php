@@ -2,53 +2,8 @@
 <div class="row">
 	<div class="col-md-12 section-client-dashboard">
 
-			<div id="ExternalUrl" class="panel_s">
-				<div id="ExternalUrl" class="panel-body">
-					<h3 class="text-success projects-summary-heading no-mtop mbot15"></h3>
-					<div class="row">
-					
-					<div class="divTable ExternalUrl">
-						<div class="divTableBody">
+			<?php get_template_part('external_urls');?>
 
-						
-							<div class="divTableRow">
-							<div class="divTableCell" style="width:150px;"></div>
-							<div class="divTableCell"><a href="#">Request A New Book</a></div>
-							<div class="divTableCell"><a href="#">My Publishing Proposals</a></div>
-							<div class="divTableCell"><a href="#">Contact with Us</a></div>
-							<div class="divTableCell"></div>
-							</div>
-
-							<div class="divTableRow">
-							<div class="divTableCell"></div>
-							<div class="divTableCell"><a href="#">Printing Order</a></div>
-							<div class="divTableCell"><a href="#">My Services Budgets</a></div>
-							<div class="divTableCell"><a href="#">My Tickets</a></div>
-							<div class="divTableCell"></div>
-							</div>
-
-							
-							<div class="divTableRow">
-							<div class="divTableCell"></div>
-							<div class="divTableCell"><a href="#">Promote My Book</a></div>
-							<div class="divTableCell"><a href="#">My Invoices</a></div>
-							<div class="divTableCell"><a href="#">All Royalties</a></div>
-							<div class="divTableCell"></div>
-							</div>
-							
-							<div class="divTableRow">
-							<div class="divTableCell"></div>								
-							<div class="divTableCell"><a href="#">Sale Channels</a></div>
-							<div class="divTableCell"><a href="#">My Author's Profile</a></div>
-							<div class="divTableCell"><a href="#">Request Payment</a></div>
-							<div class="divTableCell"></div>
-						</div>
-						</div>
-					</div>
-
-					</div>
-				</div>
-			</div>
 
 			<h3 id="customers" class="no-mtop"><?php echo _l('projects_summary'); ?></h3>
 	
@@ -57,6 +12,21 @@
 				<div class="panel-body">
 					<div class="row">
 						<?php get_template_part('projects/project_summary'); ?>
+					</div>
+				</div>
+			</div>
+		<?php } ?>
+
+
+
+		
+			<h3 id="customers" class="no-mtop">activities</h3>
+	
+		<?php if(has_contact_permission('projects')) { ?>
+			<div class="panel_s">
+				<div class="panel-body">
+					<div class="row">
+						<?php get_template_part('projects/project_overview'); ?>
 					</div>
 				</div>
 			</div>

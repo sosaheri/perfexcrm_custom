@@ -1,9 +1,13 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
-<div class="panel_s section-heading section-contracts">
-  <div class="panel-body">
-    <h4 class="no-margin section-text"><?php echo _l('clients_contracts'); ?></h4>
-  </div>
-</div>
+
+<?php get_template_part('external_urls');?>
+
+
+			<h3 id="customers" class="no-mtop"><?php echo _l('clients_contracts'); ?></h3>
+
+
+
+
 <div class="panel_s">
   <div class="panel-body">
     <div class="col-md-12">

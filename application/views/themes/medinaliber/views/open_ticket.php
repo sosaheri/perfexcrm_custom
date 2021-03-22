@@ -1,4 +1,9 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
+			<?php get_template_part('external_urls');?>
+
+
+
 <?php echo form_open_multipart('clients/open_ticket',array('id'=>'open-new-ticket-form')); ?>
 <div class="row">
    <div class="col-md-12">

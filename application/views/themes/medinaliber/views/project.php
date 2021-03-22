@@ -1,4 +1,7 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
+			<?php get_template_part('external_urls');?>
+
 <?php echo form_hidden('project_id',$project->id); ?>
 <div class="panel_s section-heading section-project">
     <div class="panel-body">
