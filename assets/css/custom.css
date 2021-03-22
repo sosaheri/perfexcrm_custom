@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    font-size: 13px;
+    color: #6a6c6f;
+    background: #e3e8ee;/* #32a9b9;*/
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default {
+    background: #19b7cb;
+    background: -webkit-gradient(linear,left top,right top,from(#19b7cb),color-stop(26%,#19b7cb),color-stop(73%,#51647c),to(#4f5d7a));
+    background: linear-gradient(to right,#19b7cb 0,#19b7cb 26%,#19b7cb 73%,#19b7cb 100%);
+}
+
+.navbar a.navbar-brand img {
+    width: auto;
+    height: 60px;
+}
+.navbar a.navbar-brand {
+    padding: 10px 0 10px 0;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+#header {
+    background: #19b7cb;
+    background: -webkit-gradient(linear,left top,right top,from(#19b7cb),color-stop(26%,#19b7cb),color-stop(73%,#51647c),to(#4f5d7a));
+    background: linear-gradient(to right,#19b7cb 0,#19b7cb 26%,#19b7cb 73%,#19b7cb 100%);
+    display: block;
+    height: 63px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 99;
+}
+
+#setup-menu-wrapper {
+    background-color: #32a9b9;
+    position: absolute;
+    top: 63px;
+    width: 210px!important;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+    z-index: 9;
+    min-height: 100%;
+}
+
+#side-menu {
+    background: #32a9b9;
+}
+
+footer {
+    background: #19b7cb;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #e4e5e7;
+}
+
+div.ExternalUrl {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+div.ExternalUrl a{
+      color: #19B7CB;
+      font-size: 15px;
+
+}
+.divTable.ExternalUrl .divTableCell, .divTable.ExternalUrl .divTableHead {
+  border: 0px solid #AAAAAA;
+}
+.divTable.ExternalUrl .divTableBody .divTableCell {
+  font-size: 13px;
+  color: #19B7CB;
+}
+.ExternalUrl .tableFootStyle {
+  font-size: 14px;
+}
+.ExternalUrl .tableFootStyle .links {
+	 text-align: right;
+}
+.ExternalUrl .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.ExternalUrl.outerTableFooter {
+  border-top: none;
+}
+.ExternalUrl.outerTableFooter .tableFootStyle {
+  padding: 3px 5px; 
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}
+
+.panel_s .panel-body {
+    background: #fff;
+    border: 1px solid #19b7cb;
+    border-radius: 4px;
+    padding: 20px;
+    position: relative;
+}
+
+#ExternalUrl.panel_s #ExternalUrl.panel-body {
+    background: #e3e8ee;
+    padding: 20px;
+    position: relative;
+    border: none;
+
+}
+
+#ExternalUrl.panel_s {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+h3#customers {
+    color: #fff;
+    padding: 10px;
+    background-color: #19b7cb;
+}
