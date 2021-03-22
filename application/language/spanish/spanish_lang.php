@@ -2319,7 +2319,7 @@ $lang['default_contact_permissions']            = 'Permisos de contacto por defe
 $lang['invoice_activity_marked_as_cancelled']   = 'Marcar factura como cancelada';
 $lang['invoice_activity_unmarked_as_cancelled'] = 'Desmarcar factura como cancelada';
 $lang['wait_text']                              = 'Por favor espere…';
-$lang['projects_summary']                       = 'Resumen de libros';
+$lang['projects_summary']                       = 'Mis libros';
 $lang['dept_imap_host']                         = 'IMAP host';
 $lang['dept_encryption']                        = 'Cifrado';
 $lang['dept_email_password']                    = 'Contraseña';
@@ -3498,4 +3498,23 @@ $lang['email_to_ticket_config']          = 'Email to ticket configuration';
 
 #royalties
 
-$lang['my_royalties']          = 'Mis regalias';
+$lang['my_royalties']          = 'Mis regalías';
+
+#externla urls
+
+$lang['Request_A_New_Book'] = 'Solicitar un nuevo libro';
+$lang['My_Publishing_Proposals'] = 'Mis propuestas de publicación';
+$lang['Contact_with_Us'] = 'Contactanos';
+
+$lang['Printing_Order'] = 'Ordenes de impresión';
+$lang['My_Services_Budgets'] = 'Mis presupuestos de servicios';
+$lang['My_Tickets'] = 'Mis Tickets';
+
+$lang['Promote_My_Book'] = 'Promocionar mi libro';
+$lang['My_Invoices'] = 'Mis facturas';
+$lang['All_Royalties'] = 'Todas las regalías';
+
+$lang['Sale_Channels'] = 'Canales de venta';
+$lang['My_Authors_Profile'] = 'Mi perfil de autor';
+$lang['Request_Payment'] = 'Solicitud de pago';
+

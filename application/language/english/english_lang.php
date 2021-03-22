@@ -2486,7 +2486,7 @@ $lang['default_contact_permissions']            = 'Default contact permissions';
 $lang['invoice_activity_marked_as_cancelled']   = 'marked invoice as cancelled';
 $lang['invoice_activity_unmarked_as_cancelled'] = 'unmarked invoice as cancelled';
 $lang['wait_text']                              = 'Please wait...';
-$lang['projects_summary']                       = 'Books Summary';
+$lang['projects_summary']                       = 'My Books';
 $lang['dept_imap_host']                         = 'IMAP Host';
 $lang['dept_encryption']                        = 'Encryption';
 $lang['dept_email_password']                    = 'Password';
@@ -3691,3 +3691,21 @@ $lang['email_to_ticket_config']          = 'Email to ticket configuration';
 #royalties
 
 $lang['my_royalties'] = 'My Royalties';
+
+#externla urls
+
+$lang['Request_A_New_Book'] = 'Request A New Book';
+$lang['My_Publishing_Proposals'] = 'My Publishing Proposals';
+$lang['Contact_with_Us'] = 'Contact with Us';
+
+$lang['Printing_Order'] = 'Printing Order';
+$lang['My_Services_Budgets'] = 'My Services Budgets';
+$lang['My_Tickets'] = 'My Tickets';
+
+$lang['Promote_My_Book'] = 'Promote My Book';
+$lang['My_Invoices'] = 'My Invoices';
+$lang['All_Royalties'] = 'All Royalties';
+
+$lang['Sale_Channels'] = 'Sale Channels';
+$lang['My_Authors_Profile'] = 'My Authors Profile';
+$lang['Request_Payment'] = 'Request Payment';
