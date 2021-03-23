@@ -11,7 +11,7 @@
 			<div class="panel_s">
 				<div class="panel-body">
 					<div class="row">
-						<?php get_template_part('projects/project_summary'); ?>
+						<?php get_template_part('projects/custom_project_summary'); ?>
 					</div>
 				</div>
 			</div>

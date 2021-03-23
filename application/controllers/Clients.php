@@ -26,6 +26,10 @@ class Clients extends ClientsController
 
         $data['project_statuses'] = $this->projects_model->get_project_statuses();
         $data['title']            = get_company_name(get_client_user_id());
+
+        $where = 'clientid=' . get_client_user_id();
+        $data['projects'] = $this->projects_model->get('', $where);
+        
         $this->data($data);
         $this->view('home');
         $this->layout();
@@ -69,7 +73,7 @@ class Clients extends ClientsController
 
         echo json_encode($data);
     }
-
+    
     public function projects($status = '')
     {
         if (!has_contact_permission('projects')) {

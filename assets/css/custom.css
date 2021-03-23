@@ -123,6 +123,23 @@ table.rg-table a:hover {
   color: #19b7cb;
 }
 
+#custom_summary a{
+  color: #1b1b1b;
+}
+
+#custom_summary.rg-table tr{
+  border-bottom: none;
+
+}
+
+#custom_summary a:hover{
+  color: #19b7cb;
+}
+
+.title_custom_summary {
+  color: #19b7cb;
+}
+
 table.rg-table tr {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -136,12 +153,18 @@ table.rg-table tr {
   color: #333;
 }
 table.rg-table thead {
-  border-bottom: 3px solid #ddd;
+  border-bottom: none;
 }
 table.rg-table tr {
   border-bottom: 1px solid #ddd;
   color: #222;
 }
+
+#custom_summary table.rg-table tr {
+  border-bottom: none;
+  color: #222;
+}
+
 table.rg-table tr.highlight {
   background-color: #dcf1f0 !important;
 }
