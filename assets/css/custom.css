@@ -135,6 +135,7 @@ table.rg-table thead {
   border-bottom: 3px solid #ddd;
 }
 table.rg-table tr {
+  border-bottom: 1px solid #ddd;
   color: #222;
 }
 table.rg-table tr.highlight {
@@ -188,6 +189,7 @@ td.number {
   }
   table.rg-table tr {
     border-bottom: none;
+    border-bottom: 1px solid #ddd;
     margin: 0 0 1em 0;
     padding: 0.5em;
   }
