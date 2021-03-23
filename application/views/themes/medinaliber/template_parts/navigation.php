@@ -1,4 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
+
 <nav class="navbar navbar-default header">
    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -13,22 +15,99 @@
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="theme-navbar-collapse">
-         <ul class="nav navbar-nav navbar-right">
+         <ul id="custom-nav" class="nav navbar-nav navbar-right">
+
             <?php hooks()->do_action('customers_navigation_start'); ?>
-            <?php foreach($menu as $item_id => $item) { ?>
-               <li class="customers-nav-item-<?php echo $item_id; ?>"
-                  <?php echo _attributes_to_string(isset($item['li_attributes']) ? $item['li_attributes'] : []); ?>>
-                  <a href="<?php echo $item['href']; ?>"
-                     <?php echo _attributes_to_string(isset($item['href_attributes']) ? $item['href_attributes'] : []); ?>>
-                     <?php
-                     if(!empty($item['icon'])){
-                        echo '<i class="'.$item['icon'].'"></i> ';
-                     }
-                     echo $item['name'];
-                     ?>
+
+      <!-- custom nav menu -->
+
+             <li class="customers-nav-item" >
+                  <a target="_blank" href="https://store.medinaliber.com
+"
+                     >
+                     OUR BOOKS 
                   </a>
-               </li>
-            <?php } ?>
+            </li>
+
+            
+             <li class="customers-nav-item" >
+                  <a href="#"
+                     >
+                     VerkuoWEB
+                  </a>
+            </li>
+
+            
+             <li class="customers-nav-item" >
+                  <a href="https://news.medinaliber.com
+"
+                     >
+                     VerkuoNEWS
+                  </a>
+            </li>
+
+            
+             <li class="customers-nav-item" >
+                  <a href="https://newsletter.medinaliber.com"
+                     >
+                     VerkuoMAIL
+
+                  </a>
+            </li>
+
+            
+      <!-- end custom nav menu -->
+
+            <?php 
+            // foreach($menu as $item_id => $item) { 
+               
+               ?>
+
+               
+      <!-- original nav menu descomment-->
+               <!-- <li class="customers-nav-item- -->
+               
+             <?php 
+            //  echo $item_id; 
+             ?>
+               
+               <!-- " -->
+                  <?php 
+                  // echo _attributes_to_string(isset($item['li_attributes']) ? $item['li_attributes'] : []); 
+                  ?>
+                  <!-- > -->
+
+                  <!-- <a href=" -->
+                  <?php 
+                  // echo $item['href']; 
+                  ?>
+                  <!-- " -->
+
+                     <?php 
+                     // echo _attributes_to_string(isset($item['href_attributes']) ? $item['href_attributes'] : []); 
+                     ?>
+                     <!-- > -->
+                     <?php
+                     // if(!empty($item['icon'])){
+                     //    echo '<i class="'.$item['icon'].'"></i> ';
+                     // }
+                     // echo $item['name'];
+                     ?>
+
+                  <!-- </a> -->
+               <!-- </li> -->
+
+
+            <?php 
+            // } 
+            
+            ?>
+
+
+         <!-- fin de nav bar -->
+
+
+
             <?php hooks()->do_action('customers_navigation_end'); ?>
             <?php if(is_client_logged_in()) { ?>
                <li class="dropdown customers-nav-item-profile">

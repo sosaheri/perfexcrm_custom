@@ -22,15 +22,25 @@
 		
 			
 
-			<h3 id="customers" class="no-mtop"><?php echo _l('my_royalties'); ?></h3>
+		<!-- <h3 id="customers" class="no-mtop"> -->
+			
+		<?php 
+			// echo _l('my_royalties'); 
+		?>
+	
+		<!-- </h3> -->
 
 
 
-		<?php hooks()->do_action('client_area_after_project_overview'); ?>
-		<div class="panel_s">
+		<?php 
+		 hooks()->do_action('client_area_after_project_overview');
+		 ?>
+		<!-- <div class="panel_s">
 			<div class="panel-body">
 				
 			</div>
-		</div>
+		</div> -->
+
+		
 	</div>
 

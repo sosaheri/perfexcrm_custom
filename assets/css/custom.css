@@ -25,6 +25,10 @@ body {
     margin-top: 7px;
 }
 
+ul#custom-nav li {
+    margin: 0 30px 0 30px;
+}
+
 #header {
     background: #19b7cb;
     background: -webkit-gradient(linear,left top,right top,from(#19b7cb),color-stop(26%,#19b7cb),color-stop(73%,#51647c),to(#4f5d7a));
