@@ -55,6 +55,15 @@
                   </a>
             </li>
 
+                      
+             <li class="customers-nav-item" >
+                  <a href="#"
+                     >
+                    FAQ
+
+                  </a>
+            </li>
+
             
       <!-- end custom nav menu -->
 
