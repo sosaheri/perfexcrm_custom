@@ -3504,9 +3504,9 @@ $lang['my_royalties']          = 'Mis regalías';
 
 $lang['Request_A_New_Book'] = 'Solicitar un nuevo libro';
 $lang['My_Publishing_Proposals'] = 'Mis propuestas de publicación';
-$lang['Contact_with_Us'] = 'Contactanos';
+$lang['Contact_with_Us'] = 'Contáctanos';
 
-$lang['Printing_Order'] = 'Ordenes de impresión';
+$lang['Printing_Order'] = 'Órdenes de impresión';
 $lang['My_Services_Budgets'] = 'Mis presupuestos de servicios';
 $lang['My_Tickets'] = 'Mis Tickets';
 
