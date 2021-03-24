@@ -3782,3 +3782,17 @@ $lang['All_Royalties'] = 'All Royalties';
 $lang['Sale_Channels'] = 'Sale Channels';
 $lang['My_Authors_Profile'] = 'My Authors Profile';
 $lang['Request_Payment'] = 'Request Payment';
+
+#custom books list
+
+$lang['Title'] = 'Title';
+$lang['Status'] = 'Status';
+$lang['Distruibuiton_POD'] = 'Distruibuiton POD';
+$lang['PVP'] = 'PVP';
+
+#custom customer nav menu
+
+$lang['OUR_BOOKS'] = 'OUR BOOKS';
+$lang['VerkuoWEB'] = 'VerkuoWEB';
+$lang['VerkuoNEWS'] = 'VerkuoNEWS';
+$lang['VerkuoMAIL'] = 'VerkuoMAIL';
