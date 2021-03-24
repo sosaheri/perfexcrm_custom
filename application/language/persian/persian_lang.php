@@ -3692,3 +3692,24 @@ $lang['something_went_wrong']            = 'Something went wrong. Try again';
 $lang['imap_folder']                     = 'Folder';
 $lang['retrieve_folders']                = 'Retrieve Folders';
 $lang['email_to_ticket_config']          = 'Email to ticket configuration';
+#royalties
+
+$lang['my_royalties'] = 'My Royalties';
+
+#externla urls
+
+$lang['Request_A_New_Book'] = 'Request A New Book';
+$lang['My_Publishing_Proposals'] = 'My Publishing Proposals';
+$lang['Contact_with_Us'] = 'Contact with Us';
+
+$lang['Printing_Order'] = 'Printing Order';
+$lang['My_Services_Budgets'] = 'My Services Budgets';
+$lang['My_Tickets'] = 'My Tickets';
+
+$lang['Promote_My_Book'] = 'Promote My Book';
+$lang['My_Invoices'] = 'My Invoices';
+$lang['All_Royalties'] = 'All Royalties';
+
+$lang['Sale_Channels'] = 'Sale Channels';
+$lang['My_Authors_Profile'] = 'My Authors Profile';
+$lang['Request_Payment'] = 'Request Payment';
