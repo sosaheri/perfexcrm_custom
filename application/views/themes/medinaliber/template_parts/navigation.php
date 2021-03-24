@@ -25,7 +25,7 @@
                   <a target="_blank" href="https://store.medinaliber.com
 "
                      >
-                     OUR BOOKS 
+                    <?php echo _l('OUR_BOOKS'); ?>  
                   </a>
             </li>
 
@@ -33,7 +33,7 @@
              <li class="customers-nav-item" >
                   <a href="#"
                      >
-                     VerkuoWEB
+                     <?php echo _l('VerkuoWEB'); ?>
                   </a>
             </li>
 
@@ -42,7 +42,7 @@
                   <a href="https://news.medinaliber.com
 "
                      >
-                     VerkuoNEWS
+                    <?php echo _l('VerkuoNEWS'); ?> 
                   </a>
             </li>
 
@@ -50,7 +50,7 @@
              <li class="customers-nav-item" >
                   <a href="https://newsletter.medinaliber.com"
                      >
-                     VerkuoMAIL
+                    <?php echo _l('VerkuoMAIL'); ?> 
 
                   </a>
             </li>

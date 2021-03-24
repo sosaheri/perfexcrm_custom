@@ -3518,3 +3518,16 @@ $lang['Sale_Channels'] = 'Canales de venta';
 $lang['My_Authors_Profile'] = 'Mi perfil de autor';
 $lang['Request_Payment'] = 'Solicitud de pago';
 
+#custom books list
+
+$lang['Title'] = 'Titulo';
+$lang['Status'] = 'Estatus';
+$lang['Distruibuiton_POD'] = 'POD de Distribución';
+$lang['PVP'] = 'PVP';
+
+#custom customer nav menu
+
+$lang['OUR_BOOKS'] = 'NUESTROS LIBROS';
+$lang['VerkuoWEB'] = 'VerkuoWEB';
+$lang['VerkuoNEWS'] = 'VerkuoNEWS';
+$lang['VerkuoMAIL'] = 'VerkuoMAIL';

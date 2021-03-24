@@ -7,10 +7,10 @@
             <table id="custom_summary"  class='rg-table'>
                         <thead>
                             <tr>
-                                <th class='title_custom_summary'>Title</th>
-                                <th class='title_custom_summary'>Status</th>
-                                <th class='title_custom_summary'>Distruibuiton POD</th>
-                                <th class='title_custom_summary'>PVP</th>
+                                <th class='title_custom_summary'><?php echo _l('Title'); ?></th>
+                                <th class='title_custom_summary'><?php echo _l('Status'); ?></th>
+                                <th class='title_custom_summary'><?php echo _l('Distruibuiton_POD'); ?></th>
+                                <th class='title_custom_summary'><?php echo _l('PVP'); ?></th>
                             </tr>
                         </thead>
                     <tbody>               
@@ -23,20 +23,20 @@
                             
                         <tr class=''>
 
-                            <td class='text'  data-title='Title'>
+                            <td class='text'  data-title='<?php echo _l('Title'); ?>'>
                                 <a href="<?php echo site_url('clients/project/' . $project['id']); ?>">
                                     <?php echo $project['name']; ?>
                                 </a>
                             </td>
 
-                            <td class='text ' data-title='Status'>
+                            <td class='text ' data-title='<?php echo _l('Status'); ?>'>
                                 <?php
                                         $status = get_project_status_by_id($project['status']);
                                         echo $status['name'];
                                 ?>
 
                             </td>
-                            <td class='text ' data-title='Distruibuiton POD'>
+                            <td class='text ' data-title='<?php echo _l('Distruibuiton_POD'); ?>'>
                                  <?php 
                                     // echo var_dump ( get_custom_fields( 'projects' , $where = [], $exclude_only_admin = false) );
                                     // echo get_custom_field_value( 1 , 'projects_distribuition' , 'projects', false )  ;
@@ -45,7 +45,7 @@
 
                                 ?>
                             </td>
-                            <td class='text ' data-title='PVP'>
+                            <td class='text ' data-title='<?php echo _l('PVP'); ?>'>
                                  <?php 
                                     echo  $project['project_cost']; 
                                 ?>
