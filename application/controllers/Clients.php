@@ -35,6 +35,38 @@ class Clients extends ClientsController
         $this->layout();
     }
 
+    public function form_request_a_book()
+    {
+        $data['title']         = _l('Request_A_New_Book');
+        $this->data($data);
+        $this->view('Request_A_New_Book');
+        $this->layout();
+    }
+
+    public function form_printing_order()
+    {
+        $data['title']         = _l('Printing_Order');
+        $this->data($data);
+        $this->view('Printing_Order');
+        $this->layout();
+    }
+
+    public function form_request_payment()
+    {
+        $data['title']         = _l('Request_Payment');
+        $this->data($data);
+        $this->view('Request_Payment');
+        $this->layout();
+    }
+
+    public function sales_channel()
+    {
+        $data['title']         = _l('Sale_Channels');
+        $this->data($data);
+        $this->view('Sale_Channels');
+        $this->layout();
+    }
+  
     public function announcements()
     {
         $data['title']         = _l('announcements');
