@@ -44,7 +44,8 @@
                             </td>
                             <td class='text ' data-title='<?php echo _l('PVP'); ?>'>
                                  <?php 
-                                    echo  $project['project_cost']; 
+                                    echo get_custom_field_value($project['id'], 3, 'projects', $format = true);
+
                                 ?>
                             </td>
                         </tr>
