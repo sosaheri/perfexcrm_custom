@@ -38,10 +38,7 @@
                             </td>
                             <td class='text ' data-title='<?php echo _l('Distruibuiton_POD'); ?>'>
                                  <?php 
-                                    // echo var_dump ( get_custom_fields( 'projects' , $where = [], $exclude_only_admin = false) );
-                                    // echo get_custom_field_value( 1 , 'projects_distribuition' , 'projects', false )  ;
                                     echo get_custom_field_value( $project['id'] , 1, 'projects' , $format = true)  ;
-                                    // echo var_dump (render_custom_fields( 'projects' , 1 , $where = [], $items_cf_params = []) )
 
                                 ?>
                             </td>
