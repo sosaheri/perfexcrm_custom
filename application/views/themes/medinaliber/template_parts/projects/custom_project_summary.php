@@ -38,13 +38,13 @@
                             </td>
                             <td class='text ' data-title='<?php echo _l('Distruibuiton_POD'); ?>'>
                                  <?php 
-                                    echo get_custom_field_value( $project['id'] , 1, 'projects' , $format = true)  ;
+                                    echo get_custom_field_value( $project['id'] , 44, 'projects' , $format = true)  ;
 
                                 ?>
                             </td>
                             <td class='text ' data-title='<?php echo _l('PVP'); ?>'>
                                  <?php 
-                                    echo get_custom_field_value($project['id'], 3, 'projects', $format = true);
+                                    echo get_custom_field_value($project['id'], 19, 'projects', $format = true);
 
                                 ?>
                             </td>
